@@ -1,0 +1,342 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8" />
+    <title>Setup | Chatvia - MongoDb and MySql Responsive Chat App TemplateDashboard</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta content="Chatvia Vuejs Responsive Chat App Template" name="description" />
+    <meta content="Themesbrand" name="author" />
+    <meta name="keywords" content="Vuejs Chat App Template documentation">
+    <!-- App favicon -->
+    <link rel="shortcut icon" href="assets/images/favicon.ico">
+
+    <!-- Bootstrap Css -->
+    <link href="assets/css/bootstrap.min.css" id="bootstrap-style" rel="stylesheet" type="text/css" />
+    <!-- Icons Css -->
+    <link href="assets/css/icons.min.css" rel="stylesheet" type="text/css" />
+    <!-- App Css-->
+    <link href="assets/css/app.min.css" id="app-style" rel="stylesheet" type="text/css" />
+
+</head>
+
+<body data-topbar="dark" data-spy="scroll" data-target=".right-side-nav" data-offset="175">
+
+    <!-- Begin page -->
+    <div id="layout-wrapper">
+
+        <header id="page-topbar">
+            <div class="navbar-header">
+                <div class="d-flex">
+                    <!-- LOGO -->
+                    <div class="navbar-brand-box">
+                        <a href="index.html" class="logo logo-light">
+                            <span class="logo-sm">
+                                <img src="assets/images/logo.svg" alt="" height="25">
+                            </span>
+                            <span class="logo-lg">
+                                <img src="assets/images/logo-light.png" alt="" height="22"> <span class="badge badge-soft-success ml-2"></span>
+                            </span>
+                        </a>
+                    </div>
+
+                    <button type="button" class="btn btn-sm px-3 font-size-24 header-item waves-effect d-lg-none" id="vertical-menu-btn">
+                        <i class="mdi mdi-menu"></i>
+                    </button>
+
+
+                </div>
+
+                <div class="d-flex">
+                    <!-- <div class="d-inline-block">
+                        <a href="https://themeforest.net/item/skote-html-laravel-admin-dashboard-template/25548061/support" target="_blank" class="header-item">Support</a>
+                    </div> -->
+
+                    <div class="d-none d-md-inline-block">
+                        <a href="https://docs.google.com/forms/d/e/1FAIpQLSfiP9bDHzIQdQoMXFrYvJx00wyFzSu_cqBWP0N0uUHpqjrbzQ/viewform" target="_blank" class="header-item">Need Customization?</a>
+                    </div>
+
+                    <!-- <div class="d-inline-block">
+                        <a href="https://1.envato.market/skote" target="_blank" class="header-item">Buy Now</a>
+                    </div> -->
+
+                    <div class="d-inline-block">
+                        <h5 class="header-item m-0"><span class="badge badge-danger">v2.5.0</span></h5>
+                    </div>
+            
+                </div>
+            </div>
+        </header>
+
+        <!-- ========== Left Sidebar Start ========== -->
+        <div class="vertical-menu">
+
+            <div data-simplebar class="h-100">
+
+                <!--- Sidemenu -->
+                <div id="sidebar-menu">
+                    <!-- Left Menu Start -->
+                    <ul class="metismenu list-unstyled" id="side-menu">
+                        <li class="menu-title">Docs</li>
+
+                        <li>
+                            <a href="index.html" class="waves-effect">
+                                <i class="mdi mdi-text-box-outline"></i>
+                                <span>Introduction</span>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="setup.html" class=" waves-effect">
+                                <i class="mdi mdi-cog-outline"></i>
+                                <span>Setup - MongoDB</span>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="setup_mysql.html" class=" waves-effect">
+                                <i class="mdi mdi-cog-outline"></i>
+                                <span>Setup - MySQL</span>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="plugins.html" class=" waves-effect">
+                                <i class="mdi mdi-cog-outline"></i>
+                                <span>Plugins</span>
+                            </a>
+                        </li>
+
+                        <li class="menu-title">Themes</li>
+                
+                        <li>
+                            <a href="dark.html" class=" waves-effect">
+                                <i class="mdi mdi-weather-night"></i>
+                                <span>Dark/Light Version</span>
+                            </a>
+                        </li>
+
+                        <!-- <li>
+                            <a href="rtl.html" class=" waves-effect">
+                                <i class="mdi mdi-web"></i>
+                                <span>RTL Version</span>
+                            </a>
+                        </li> -->
+
+                        <li class="menu-title">Other</li>
+
+                        <li>
+                            <a href="changelog.html" class=" waves-effect">
+                                <i class="mdi mdi-format-list-bulleted"></i>
+                                <span>Changelog</span>
+                            </a>
+                        </li>
+
+                    </ul>
+                </div>
+                <!-- Sidebar -->
+            </div>
+        </div>
+        <!-- Left Sidebar End -->
+
+        <!-- ============================================================== -->
+        <!-- Start right Content here -->
+        <!-- ============================================================== -->
+        <div class="main-content">
+            <div class="page-content">
+                <div class="container-fluid">
+                    <!-- start page title -->
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="page-title-box d-flex align-items-center justify-content-between">
+                                <h4 class="mb-0 font-size-18">Setup - MySql</h4>
+                                <div class="page-title-right">
+                                    <ol class="breadcrumb m-0">
+                                        <li class="breadcrumb-item"><a href="javascript: void(0);">Docs</a></li>
+                                        <li class="breadcrumb-item active">Setup - MySql</li>
+                                    </ol>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end page title -->
+                    <div class="card ">
+                        <div class="card-body">
+                            <div class="p-lg-3">
+                                <p>
+                                    Chatvia is a fully featured Node.js Responsive Chat App Template with MySql.
+                                </p>
+                                <h5 class="mt-4">Prerequisites</h5>
+                                <p>
+                                    Please follow below steps to install and setup all rerequisites:
+                                </p>
+                                <ul>
+                                    <!-- <li>
+                                        <hr>
+                                        <h5 class="mt-4">Reference Video</h5>
+
+                                        <video width="1000" controls>
+                                            <source src="./assets/images/ref.mp4" type="video/mp4">
+                                            <source src="movie.ogg" type="video/ogg">
+                                            Your browser does not support the video tag.
+                                        </video>
+
+                                    </li>
+                                    <hr><br> -->
+                                    <li>
+                                        <strong>Node</strong>
+                                        <p>
+                                            Make sure to have the <a href="https://nodejs.org/en/"> Node </a> installed
+                                            &amp; running in your computer. If you already have installed node on your
+                                            computer, you can skip this step. Node version must be greater then equal to
+                                            16.</p>
+                                    </li>
+                                    <hr>
+                                    <li>
+                                        <strong>Database</strong>
+                                        <p>-<b><i>MySql</i></b></p>
+                                        <p>
+                                            Make sure to have the <a
+                                                href=" https://www.phpmyadmin.net/"> MySql
+                                            </a> installed
+                                            &amp; running in your computer. If you already have installed MySql on
+                                            your
+                                            computer, you can skip this step.</p>
+                                        <p>STEP-1: Open any web browser and visit <a href="https://www.apachefriends.org/index.html">https://www.apachefriends.org/index</a>. On the home page, you can find the option to download XAMPP for three platforms- Windows, MAC, and Linux. Click on XAMPP for Windows. The latest version available on the website is 8.1.6.</p>
+
+                                        <p>As soon as you click on it, a message displaying the automatic start of download appears on the screen.</p>
+                                        
+                                        <img src="./assets/images/mysql_ss/installmysql.png" width="80%">
+                                        <hr>
+
+                                        <p>STEP-2: After the download is completed, double click the .exe extension file to start the process of installation.</p>
+                                        <p>STEP-3: A pop-up screen with the message asking you to allow to make changes on your desktop appears. Click "YES" to continue the process.</p>
+                                        <p>STEP-4: Click to Allow access or deactivate the firewall and any other antivirus software because it can hamper the process of installation. Thus, it is required to temporarily disable any antivirus software or security firewall till the time all the XAMPP components have been installed completely.</p>
+
+                                        <img src="./assets/images/mysql_ss/firewall.png" width="30%">
+                                        <hr>
+
+                                        <p>STEP-5: Just before the installation, a pop-up window appears with a warning to disable UAC. User Account Control (UAC) interrupts the XAMPP installation because it restricts the access to write to the C: drive. Therefore, it is suggested to disable it for the period of installation</p>
+
+                                        <p>STEP-6: After clicking the .exe extension file, the XAMPP setup wizard opens spontaneously. Click on "NEXT" to start the configuration of the settings.</p>
+
+                                        <img src="./assets/images/mysql_ss/xampp_1.png" width="30%">
+                                        <hr>
+
+                                        <p>STEP-7: After that, a 'Select Components' panel appears, which gives you the liberty to choose amongst the separate components of the XAMPP software stack for the installation. To get a complete localhost server, it is recommended to install using the default options of containing all available components. Click "NEXT" to proceed further.</p>
+
+                                        <img src="./assets/images/mysql_ss/xampp_2.png" width="30%">
+                                        <hr>
+
+                                        <p>STEP-8: The setup is now ready to install, and a pop-up window showing the same appears on the screen. Click "NEXT" to take the process forward.</p>
+
+                                        <img src="./assets/images/mysql_ss/xampp_3.png" width="30%">
+                                        <hr>
+
+                                        <p>STEP-9: Select the location where the XAMPP software packet needs to be installed. The original setup creates a folder titled XAMPP under C:\ for you. After choosing a location, click "NEXT".</p>
+
+                                        <img src="./assets/images/mysql_ss/xampp_4.png" width="30%">
+                                        <hr>
+
+                                        <p>STEP-10: After choosing from all the previously mentioned preferences (like language and learn more bitnami dialogue box) click to start the installation. The setup wizard will unpack and install the components to your system. The components are saved to the assigned directory. This process may takes a few minutes to complete. The progress of the installation in terms of percentage is visible on the screen.</p>
+
+                                        <img src="./assets/images/mysql_ss/xampp_5.png" width="30%">
+                                        <hr>
+
+                                        <p>STEP-11: After the successful installation of the XAMPP setup on your desktop, press the "FINISH" button.On clicking the FINISH button, the software automatically launches, and the CONTROL PANEL is visible. The image below shows the appearance of the final result</p>
+
+                                        <img src="./assets/images/mysql_ss/xampp_6.png" width="30%">
+                                        <hr>
+
+                                        <p>STEP-12: After that open any browser and run following url <a href="http://localhost/phpmyadmin/index.php">http://localhost/phpmyadmin/index.php. </a> it will open local database in your system. Then after click on New and create a databse with name of "chatvia".</p>
+
+                                        <img src="./assets/images/mysql_ss/xampp_7.png" width="30%">
+                                        <hr>
+
+                                        <p>STEP-13: After successfully database created, download chatvia.sql databse file and Import it.</p>
+                                        
+                                    </li>
+                                </ul>
+                                <h5 class="mt-4">Installation</h5>
+                                <p>
+                                    To setup the Chatvia, follow below-mentioned steps:
+                                </p>
+                                <ul>
+                                    <li>
+                                        <strong>Install Prerequisites</strong>
+                                        <p>
+                                            Make sure to have all above prerequisites installed &amp; running on your
+                                            computer.
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <strong>Install Dependencies</strong>
+                                        <p>Open your terminal at the root directory of the project, go to your folder
+                                            and enter the command <code>npm install</code>. This would install all the
+                                            required dependencies in the <code>node_modules</code> folder.</p>
+                                    </li>
+                                </ul>
+                                </p>
+                                <p class="mt-4">
+                                    After you finished with the above steps, you can run the following commands to run
+                                    the project locally or build for production use:
+                                </p>
+                                <table class="table table-bordered m-0">
+                                    <thead>
+                                        <tr>
+                                            <th style="width: 30%;">
+                                                <i class="ti-file"></i> Command</th>
+                                            <th>Description</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>
+                                                <code>npm start</code> or <code>node app.js</code>
+                                            </td>
+                                            <td>
+                                                The development server is accessible at <a
+                                                    href='http://localhost:2000'>http://localhost:2000</a>.
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div> <!-- end padding-->
+                        </div> <!-- end card-body-->
+                    </div> <!-- end card-->
+                </div> <!-- container-fluid -->
+            </div>
+            <!-- End Page-content -->
+            <footer class="footer">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <script>document.write(new Date().getFullYear());</script> © Themesbrand.
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="text-sm-right d-none d-sm-block">
+                                Crafted with <i class="mdi mdi-heart text-danger"></i> by <a href="https://themesbrand.com/" target="_blank" class="text-muted">Themesbrand</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+        <!-- end main content-->
+
+    </div>
+    <!-- END layout-wrapper -->
+
+
+    <!-- JAVASCRIPT -->
+    <script src="assets/libs/jquery/jquery.min.js"></script>
+    <script src="assets/libs/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/libs/simplebar/simplebar.min.js"></script>
+    <script src="assets/libs/jquery.easing/jquery.easing.min.js"></script>
+
+    <script src="assets/js/app.js"></script>
+
+</body>
+
+</html>
